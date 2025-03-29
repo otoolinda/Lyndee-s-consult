@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Engineer Linda Otoo</title>
+		<link href="CSS/styles.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+	<div id="header" class="clearfix">
+		<div id="brand">
+		Ms. Linda Otoo
+		</div>
+		<div id="nav">
+			<a href="#header">Home</a>
+			<a href="#about">About</a>
+			<a href="#qualification">Qualification</a>
+			<a href="#skills">Skills</a>
+			<a href="#projects">Projects</a>
+			<a href="#contact">Contact</a>
+		</div>
+	</div> <!-- header div ends here -->
+
+	<div  id="about">
+		<div class="inner  clearfix">
+			<div id="image">
+				<img src="images/myphoto.jpg"/>
+				<p>Power Electronics Engineer</p>
+			</div>	
+			<div id="bio">
+				<h2>ABOUT ME</h2>
+				<p>I am an experienced Electrical Design Engineer specializing in power electronics converter design and control for renewable energy systems, including wind and photovoltaic (PV) applications. My expertise spans the development and optimization of high-performance power converters, ensuring efficient energy conversion and grid integration. In addition to my focus on power electronics, I have a solid background in power system analysis, operation, and control. I excel in analyzing system stability, grid interactions, and implementing advanced control strategies to improve system performance and reliability.
+I am passionate about driving innovation in renewable energy and contributing to the global shift toward sustainable power solutions.</p>
+				<a href="docs/MyResume.docx">Download Resume</a> <a href="docs/MyResume.pdf" target="_blank">View Resume</a>
+			</div>		
+		</div>
+	
+	</div> <!-- about div ends here -->
+	
+	<div  id="qualification">
+		<h2>QUALIFICATION</h2>
+		<table>
+			<tr>
+				<td>S1. Num</td>
+				<td>Qualification</td>
+				<td>College</td>
+				<td>Year</td>
+				<td>Grade</td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Masters in Electrical Energy Conversion and Power Systems</td>
+				<td>Universidad de Oviedo</td>
+				<td>2024</td>
+				<td>72%</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>BSc Electrical and Electronic Engineering</td>
+				<td>UENR</td>
+				<td>2020</td>
+				<td>Grade</td>
+			</tr>
+
+		</table>
+	</div> <!-- Qualification section ends here -->
+
+	<div  id="skills">
+		<h2>SKILLS</h2>
+		<table>
+			<tr>
+				<td>Serial Num</td>
+				<td>Software/Language</td>
+				<td>Efficiency Level</td>			
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>MATLAB Simulation and Programming</td>
+				<td>Expert</td>	
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Python Programming</td>
+				<td>Intermediate</td>				
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>PCB Designer (Altium designer)</td>
+				<td>Intermediate</td>			
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Jetson Software</td>
+				<td>Intermediate</td>			
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>LTspice</td>
+				<td>Expert</td>			
+			</tr>
+			<tr>
+				<td>6</td>
+				<td>Digisilent Powerfactory</td>
+				<td>Intermediate</td>			
+			</tr>
+			<tr>
+				<td>7</td>
+				<td>PowerWorld Simulator</td>
+				<td>Expert</td>			
+			</tr>
+			<tr>
+				<td>8</td>
+				<td>Plecs Simulator</td>
+				<td>Intermediate</td>			
+			</tr>
+			<tr>
+				<td>9</td>
+				<td>Html</td>
+				<td>Intermediate</td>			
+			</tr>
+			<tr>
+				<td>10</td>
+				<td>PSIM</td>	
+				<td>Expert</td>		
+			</tr>
+			<tr>
+				<td>11</td>
+				<td>CSS</td>
+				<td>Intermediate</td>			
+			</tr>
+			<tr>
+				<td>12</td>
+				<td>C++/C</td>
+				<td>Intermediate</td>			
+			</tr>
+
+		</table>
+	</div> <!-- Skills section ends here -->
+	
+	<div id="projects">
+		<h2>Power Converter Projects</h2>
+		<div  class="row clearfix">
+			<div class="col">
+				<p>before</p>
+				<a href="images/wind.jpeg"  target="_blank"><img src="images/wind.jpeg"></a>
+			</div>
+			<div class="col">
+				<p>Abstract of the project</p>
+				<img src="images/wind.jpeg">
+			</div>
+
+		</div>
+		<h2>Machine Projects</h2>
+		<div  class="row clearfix">
+			<div class="col">
+				<p>before</p>
+				<img src="images/wind.jpeg">
+			</div>
+			<div class="col">
+				<p>Abstract of the project</p>
+				<img src="images/wind.jpeg">
+			</div>
+		</div>
+		<h2>Control Projects</h2>
+		<div  class="row clearfix">
+			<div class="col">
+				<p>before</p>
+				<img src="images/wind.jpeg">
+			</div>
+			<div class="col">
+				<p>Abstract of the project</p>
+				<img src="images/wind.jpeg">
+			</div>
+		</div>
+		<h2>Reviewed Works</h2>
+		<div  class="row clearfix">
+			<div class="col">
+				<p>before</p>
+				<img src="images/wind.jpeg">
+			</div>
+			<div class="col">
+				<p>Abstract of the project</p>
+				<img src="images/wind.jpeg">
+			</div>
+		</div>
+	</div>   <!-- Projects section ends here -->
+	<div id="contact">		 
+		<h2>CONTACT ME</h2>
+		<form>	
+			<label>FirstName:</label><br/>
+			<input type="text"/><br/>
+			<label>SurName:</label><br/>
+			<input type="text"/><br/>
+			<label>Email ID:</label><br/>
+			<input type="text"/><br/>
+			<label>Mobile Number:</label><br/>
+			<input type="text"/><br/>
+			<label>Feedback:</label><br/>
+			<textarea row="10"></textarea><br/>
+			<input type="submit"  value="SUBMIT">
+		</form>	
+	</div> <!-- contact section ends here -->
+	<div id="footer">
+	@copyright -2024
+	</div>	
+	<a  href="#header">
+	<div id="top">
+	^
+	</div>
+	</a>
+	</body>
+</html>
